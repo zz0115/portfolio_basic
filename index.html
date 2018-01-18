@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My portfolio_Basic</title>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.css">
+  <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- <link href="http://getbootstrap.com/docs/4.0/examples/sticky-footer/" rel="stylesheet"> -->
+  <style>
+
+    .row {
+      min-height:100%;
+      position:relative;
+    }
+    html {
+      height: 100%; 
+    }
+
+    body {
+      padding-bottom: 30px;           
+    }
+
+    .footer {
+      position:fixed;
+      background-color: #f5f5f5;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+	
+	<div class="container">
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-inverse">
+      <!-- Place Fluid Container in Navbar -->
+      <div class="container-fluid">
+        <!-- Designate a navbar heading -->
+        <div class="navbar-header">
+          <!-- Collapsible button -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <!-- navbar button elements-->
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span> <!-- first line -->
+              <span class="icon-bar"></span> <!-- second line -->
+              <span class="icon-bar"></span> <!-- third line -->
+            </button>
+          <!-- Our brand / logo -->
+          <a class="navbar-brand" href="index.html">Ziwei Zhang</a>
+        </div>
+        <!-- The links of our navbar -->
+        <div id="navbar" class="navbar-collapse collapse">
+          
+          <!-- More links -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+
+    <div class = "row">
+    	<div class = "col-xs-12 col-sm-12 col-md-8" class = "thumbnail">
+    		<div class = "page-header">
+    			<h1>About Me</h1>
+    		</div>
+    	
+    		<div class = "col-sm-4">
+    			<img src="img/My_Pic.jpg" class="img-responsive" alt="My picture">
+			</div>
+			
+			<div class = "col-sm-8">
+
+	    		<p>I have a background in finance and economics. Those are interesting majors, which get me to think about how the economic world works in our society.</p>
+	    		<p>Sometimes I am a little annoyed by doing similar things over and over again at work. I always like to explore more. I want to learn more about computer science, since I like logical thinking, math-related, and technology knowledge and products. I'm fascinated by the ability to write and understand the coding language and apply it to enhance our daily life.</p>
+	    		<p>I hope I can use this coding bootcamp as a start position to be a good programmer.</p>
+	    	</div>
+    	</div>
+
+    	<div class = "col-xs-12 col-sm-12 col-md-4">
+    		<div class = "panel panel-success">
+    			<div class = "panel-heading">
+    				<h3 class = "panel-title">Connect with Me</h3>
+				</div>
+
+    			<div class = "panel-body">
+    				<div class = "col-xs-4 col-sm-4 col-md-4">
+            <a href = "https://github.com/zz0115" target = "_blank"><img src = "img/Github-Icon.png" alt = "Github" class = "social img-responsive"></a>
+          </div>
+          <div class = "col-xs-4 col-sm-4 col-md-4">
+            <a href = "https://www.linkedin.com/in/ziwei0115/" target = "_blank"><img src = "img/Linkedin-Icon.png" alt = "LinkedIn" class = "social img-responsive"></a>
+          </div>
+          <div class = "col-xs-4 col-sm-4 col-md-4"> 
+            <a href = "https://stackoverflow.com/users/8470276/ziwei" target = "_blank"><img src = "img/Stack-Icon.png" alt = "StackOF" class = "social img-responsive"></a>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	<footer class = "footer">
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-md-12">
+					<span class = "text-muted"> &copy; Copyright 2017 Ziwei Zhang </span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+</body>
+</html>
