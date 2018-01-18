@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My portfolio_Basic</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.css">
+  <!-- <link rel="alternate" type="application/rss+xml" title="Latest snippets resources templates and utilities for bootstrap from bootdey.com:" href="http://bootdey.com/rss" /> -->
+<!--   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- <link href="http://getbootstrap.com/docs/4.0/examples/sticky-footer/" rel="stylesheet"> -->
+  <style>
+
+    .row {
+      min-height:100%;
+      position:relative;
+    }
+    html {
+      height: 100%; 
+    }
+
+    body {
+      padding-bottom: 30px;           
+    }
+
+    .footer {
+      position:fixed;
+      background-color: #f5f5f5;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      text-align: center;
+    }
+
+    .post-content {
+      border-bottom: 0;
+      background: #4aaaa5;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      bottom: 100px;
+      padding: 5px;
+      width: 100%;
+      line-height: 30px;
+      font-weight: 300;
+    }
+
+    img {
+      width: 100%;
+      border: 0 none;
+      opacity: .8;
+      margin-bottom: 5%;
+      /*position: relative;*/
+    }
+
+    
+
+  </style>
+</head>
+<body>
+	
+	<div class="container">
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-inverse">
+      <!-- Place Fluid Container in Navbar -->
+      <div class="container-fluid">
+        <!-- Designate a navbar heading -->
+        <div class="navbar-header">
+          <!-- Collapsible button -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <!-- navbar button elements-->
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span> <!-- first line -->
+            <span class="icon-bar"></span> <!-- second line -->
+            <span class="icon-bar"></span> <!-- third line -->
+          </button>
+          <!-- Our brand / logo -->
+          <a class="navbar-brand" href="#">Ziwei Zhang</a>
+        </div>
+        <!-- The links of our navbar -->
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <!-- More links -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+
+    <div class = "row">
+    	<div class = "col-xs-12 col-sm-12 col-md-8" class = "thumbnail">
+        <div class = "page-header">
+          <h1>Portfolio</h1>
+        </div>
+        <div class = "row">
+        <div class = "col-xs-12 col-sm-12 col-md-12">
+            <div class = "col-xs-12 col-sm-12 col-md-6 img-responsive">
+              <img src="img/burger.jpg" alt="burgerApp" width = "350px" height = "262.5px">
+              <div class = "post-content">
+                <h3><a target="_blank" href="https://aqueous-springs-19806.herokuapp.com/">Sequelized Burger</a></h3>
+              </div>
+            </div>
+            <!-- <div class="col-xs-12 col-sm-12 col-md-6">
+              <img src="images/pt-2.jpg" alt="image2" width = "350px" height = "262.5px">
+              <div class = "post-content">
+                <h3>RPG Game</h3>
+              </div>
+            </div> -->
+          </div>
+    </div>
+    <!-- <div class = "row">
+           <div class = "col-xs-12 col-sm-12 col-md-12">
+            <div class = "col-xs-12 col-sm-12 col-md-6">
+              <img src="images/pt-3.jpg" alt="image3" width = "350px" height = "262.5px">
+              <div class = "post-content">
+                <h3>Trivia Game</h3>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+              <img src="images/pt-4.jpg" alt="image4" width = "350px" height = "262.5px">
+              <div class = "post-content">
+                <h3>Rutgers Info Widget</h3>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class = "row">
+          <div class = "col-xs-12 col-sm-12 col-md-12">
+            <div class = "col-xs-12 col-sm-12 col-md-6">
+              <img src="images/pt-5.jpg" alt="image5" width = "350px" height = "262.5px">
+              <div class = "post-content">
+                <h3>Rock Paper Scissors</h3>
+              </div>
+            </div>
+          </div>     
+    </div>
+      </div>
+    
+
+    <div class = "col-xs-12 col-sm-12 col-md-4">
+          <div class = "panel panel-success">
+           <div class = "panel-heading">
+            <h3 class = "panel-title">Connect with Me</h3>
+          </div>
+          <div class = "panel-body">
+            <div class = "col-xs-4 col-sm-4 col-md-4">
+              <a href = "https://github.com/zz0115" target = "_blank"><img src = "images/Github-Icon.png" alt = "Github" class = "social img-responsive"></a>
+            </div>
+            <div class = "col-xs-4 col-sm-4 col-md-4">
+              <a href = "https://www.linkedin.com/in/ziwei0115/" target = "_blank"><img src = "images/Linkedin-Icon.png" alt = "LinkedIn" class = "social img-responsive"></a>
+            </div>
+            <div class = "col-xs-4 col-sm-4 col-md-4"> 
+              <a href = "https://stackoverflow.com/users/8470276/ziwei" target = "_blank"><img src = "images/Stack-Icon.png" alt = "StackOF" class = "social img-responsive"></a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+     </div> 
+    </div>
+
+  <footer class = "footer">
+    <div class = "container">
+     <div class = "row">
+      <div class = "col-md-12">
+       <span class = "text-muted"> &copy; Copyright 2018 Ziwei Zhang </span>
+       </div>
+     </div>
+   </div>
+ </footer>
+
+
+</body>
+</html>
